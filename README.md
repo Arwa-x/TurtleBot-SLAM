@@ -16,9 +16,39 @@ This instruction was tested on Linux with Ubuntu 20.04 and ROS1 Noetic
   
  ```
  ## Install TurtleBot3 Packages
-``` sudo apt install ros-noetic-dynamixel-sdk
+``` 
+sudo apt install ros-noetic-dynamixel-sdk
 ```
-``` sudo apt install ros-noetic-turtlebot3-msgs
+``` 
+sudo apt install ros-noetic-turtlebot3-msgs
 ```
-``` sudo apt install ros-noetic-turtlebot3
+``` 
+sudo apt install ros-noetic-turtlebot3
 ```
+## Install Simulation Package
+```
+cd ~/catkin_ws/src/
+$ git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+$ cd ~/catkin_ws && catkin_make
+```
+## Launch Simulation World
+```
+$ export TURTLEBOT3_MODEL=waffle
+$ roslaunch turtlebot3_gazebo turtlebot3_world.launch
+```
+
+## Operate TurtleBot3
+```
+roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+```
+
+## 
+
+
+
+
+
+
+
+
+
