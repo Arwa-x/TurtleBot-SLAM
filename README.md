@@ -30,8 +30,8 @@ sudo apt install ros-noetic-turtlebot3
 ## Install Simulation Package
 ```
 cd ~/catkin_ws/src/
-$ git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
-$ cd ~/catkin_ws && catkin_make
+git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+cd ~/catkin_ws && catkin_make
 ```
 # 3- SLAM Simulation
 ## Launch Simulation World
