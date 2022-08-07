@@ -4,7 +4,7 @@ SLAM (Simultaneous Localization and Mapping) is a technique to estimate current 
 There are 3 versions of the TurtleBot model
 
 This instruction was tested on Linux with Ubuntu 20.04 and ROS1 Noetic
-# 1
+# 1- Getting Started
 ## Install Dependent ROS Packages
 ```sudo apt-get install ros-noetic-joy ros-noetic-teleop-twist-joy \
   ros-noetic-teleop-twist-keyboard ros-noetic-laser-proc \
@@ -26,14 +26,14 @@ sudo apt install ros-noetic-turtlebot3-msgs
 ``` 
 sudo apt install ros-noetic-turtlebot3
 ```
-# Simulation
+# 2- Simulation
 ## Install Simulation Package
 ```
 cd ~/catkin_ws/src/
 $ git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
 $ cd ~/catkin_ws && catkin_make
 ```
-# SLAM Simulation
+# 3- SLAM Simulation
 ## Launch Simulation World
 ```
 export TURTLEBOT3_MODEL=waffle
