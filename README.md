@@ -35,16 +35,19 @@ $ cd ~/catkin_ws && catkin_make
 ```
 # SLAM Simulation
 ## Launch Simulation World
-```export TURTLEBOT3_MODEL=waffle
- roslaunch turtlebot3_gazebo turtlebot3_world.launch
+```
+export TURTLEBOT3_MODEL=waffle
+roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
 ## Run SLAM Node
-```export TURTLEBOT3_MODEL=waffle
-   roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
+```
+export TURTLEBOT3_MODEL=waffle
+roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 ```
 ## Run Teleoperation Node
-```export TURTLEBOT3_MODEL=waffle
- roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+```
+export TURTLEBOT3_MODEL=waffle
+roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
 ## Save Map
 ```
