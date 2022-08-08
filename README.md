@@ -70,7 +70,7 @@ When the map is created successfully, open a new terminal and save the map
 ```
 rosrun map_server map_saver -f ~/map
 ```
-# Results
+# 4- Results
 ![Result](SLAM_Result.png)
 
 
