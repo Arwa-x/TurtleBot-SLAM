@@ -45,18 +45,24 @@ Open a new terminal and simulation World, there are 3 versions of the TurtleBot 
 You can select one of these models ```burger```, ```waffle```, ```waffle_pi``` for the TURTLEBOT3_MODEL parameter
 ```
 export TURTLEBOT3_MODEL=waffle
+```
+```
 roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
 ## Run SLAM Node
 Open a new terminal and run the SLAM node, Gmapping SLAM method is used by default
 ```
 export TURTLEBOT3_MODEL=waffle
+```
+```
 roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 ```
 ## Run Teleoperation Node
 In order to teleoperate the TurtleBot3 with the keyboard, launch the teleoperation node with below command in a new terminal window
 ```
 export TURTLEBOT3_MODEL=waffle
+```
+```
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
 ## Save Map
