@@ -40,7 +40,7 @@ cd ~/catkin_ws && catkin_make
 ```
 # 3- SLAM Simulation
 ## Launch Simulation World
-Open a new terminal and simulation World, there are 3 versions of the TurtleBot model, in these instruction, waffle model will be used
+Open a new terminal and simulation World, there are 3 versions of the TurtleBot model, I used waffle model
 
 You can select one of these models ```burger```, ```waffle```, ```waffle_pi``` for the TURTLEBOT3_MODEL parameter
 ```
